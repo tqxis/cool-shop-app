@@ -1,4 +1,9 @@
 /* --------- HEADER ---------*/
+.header {
+  display: flex;
+  background: var(--header-gradient);
+}
+
 .icon-menu {
   width: 28px;
   height: 20px;
@@ -10,14 +15,41 @@
   color: var(--text-color-light);
 }
 
+.form {
+  display: flex;
+}
+
 .search-input {
   width: 248px;
   height: 44px;
+  border: 1px solid white;
+  border-radius: 4px 0 0 4px;
+  background-color: #eeeeee;
+}
+
+.search-button {
+  width: 52px;
+  height: 44px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  background-color: white;
 }
 
 .icon-search {
   width: 248px;
   height: 44px;
+}
+.language-changer {
+  font-size: 24px;
+  display: flex;
+  color: white;
+}
+
+.language-changer-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  color: white;
 }
 
 .icon-favorite-light {
