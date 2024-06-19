@@ -1,7 +1,18 @@
 /* --------- HEADER ---------*/
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: var(--header-gradient);
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.header-actions {
 }
 
 .icon-menu {
